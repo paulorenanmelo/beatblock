@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+    ==========================================================================================================================
+    //
+    // GAME NAME
+    // >> edit as per the quick start guide    
+    //
+    ==========================================================================================================================
+     -->
+    <!-- Game Name -->
+    <string name="app_name">BEATBLOCK</string>
+    
+    <!-- Sub Title -->
+    <string name="subTitle">You got rhythm?</string>
+    
+    <!-- Share message -->
+    <string name="shareMsg">I just scored @score@ on @appName@. I bet you can not beat my score. Grab the game here: @gameUrl@</string>
+
+    
+    
+    <!-- 
+    ==========================================================================================================================
+    //
+    // GAME DIFFICULTY SETTINGS
+    // >> edit as per the quick start guide
+    //
+    ==========================================================================================================================
+     -->
+    <!-- Game Speed -->
+    <integer name="gameSpeed">15</integer>
+    <!-- Game Speed Increment -->
+    <integer name="gameSpeedIncrement">20</integer>
+    <!-- Game Speed Increment Increase -->
+    <integer name="gameSpeedIncrementIncrease">7</integer>   
+
+    
+    
+    <!-- 
+    ==========================================================================================================================
+    //
+    // GOOGLE SETTINGS
+    // >> edit as per the quick start guide
+    //
+    ==========================================================================================================================
+     -->
+	<string name="app_id">1</string>
+  	<string name="leaderboard_leaders">1</string>
+  	
+  	  	<!-- Ad ids -->
+  	<string name="admob_id">1</string>
+  	<string name="InterstitialAd_unit_id">1</string>
+  	
+  	
+	<!-- Manager Ads -->
+  	<bool name="admob_banner_on">false</bool>
+  	<bool name="admob_banner_top">false</bool>
+  	<bool name="admob_banner_bottom">true</bool>  	
+  	<bool name="admob_interstitial_on">true</bool>
+  	<integer name="InterstitialAd_frequency">3</integer>
+  	
+
+    <!-- 
+    ==========================================================================================================================
+    //
+    // FONT SETTINGS
+    // >> edit as per the quick start guide
+    //
+    ==========================================================================================================================
+     -->
+    <!--Font Files -->
+    <string name="titleTitleFontFile">Prodotto In Cina.ttf</string>
+    <string name="subTitleFontFile">sub.ttf</string>
+
+    <!--Font Sizes -->
+    <integer name="titleTitleFontSize">20</integer>
+    <integer name="subTitleFontSize">7</integer> 
+    
+    <!-- Fonts Color -->
+    <string name="mainTitleColor">#344F70</string>
+    <string name="subTitleColor">#344F70</string>
+    
+    
+  	
+    <!-- 
+    ==========================================================================================================================
+    //
+    // ELEMENT SETTINGS
+    // >> edit as per the quick start guide
+    //
+    ==========================================================================================================================
+     -->
+    <!-- Hero -->
+  	<string name="heroColor">#344F70</string>
+  	<integer name="heroSize">10</integer>
+  	<bool name="useHeroImage">false</bool>
+  	
+    <!-- Objects -->
+    <string name="objectColor">#e74c3c</string>
+    <integer name="objectSize">10</integer>
+    <bool name="useObjectImage">false</bool>
+    
+    <!-- Ground Color -->
+    <string name="groundColor">#bdc3c7</string>
+    <bool name="useWallImage">false</bool>
+
+    <!-- Backgrounds -->
+    <string name="splashBackgroundColor">#ECEFF4</string>
+    <string name="gameBackgroundColor">#ECEFF4</string>
+    <bool name="useBackgroundImage">false</bool>
+    
+    <!-- Particles -->
+    <string name="heroParticleColor">#344F70</string>
+    <string name="groundParticleColor">#79553a</string>
+
+    <!-- Song List -->
+    <integer name="songListWidthSecondCol">12</integer>
+    
+  	
+    <!-- 
+    ==========================================================================================================================
+    //
+    // BUTTON SETTINGS
+    // >> edit as per the quick start guide
+    //
+    ==========================================================================================================================
+     -->
+    <!-- DONT EDIT -->
+    <string name="iconFont">game_icons.ttf</string>
+    
+    <!-- Background Color -->
+    <color name="buttonBackgroundColor">#344F70</color>
+    
+    <!-- Icon Color -->
+    <color name="playIconColor">#ECEFF4</color>
+    <color name="replayIconColor">#ECEFF4</color>
+    <color name="homeIconColor">#ECEFF4</color>
+    <color name="soundIconColor">#ECEFF4</color>
+    <color name="muteIconColor">#ECEFF4</color>
+    <color name="googleIconColor">#ECEFF4</color> 
+    <color name="starIconColor">#ECEFF4</color>
+    <color name="scoreIconColor">#ECEFF4</color>  
+    <color name="jumpIconColor">#ECEFF4</color>   
+    <color name="shareIconColor">#ECEFF4</color>  
+        
+    
+  	
+    <!-- 
+    ==========================================================================================================================
+    //
+    // GOOGLE PLAY SERVICE SETTINGS
+    // >> no need to edit
+    //
+    ==========================================================================================================================
+     -->
+    <string name="signing_in">Signing in with Google</string>
+    <string name="signing_out">Signing out</string>
+    <string name="sign_in_explanation">Sign with Google to upload your achievements and share with friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="click_me">Click me!</string>
+    <string name="victory">Victory</string>
+    <string name="you_won">OK! You won!</string>
+    <string name="signin_other_error">There was an issue with sign in. Please try again later.</string>
+    
+</resources>
